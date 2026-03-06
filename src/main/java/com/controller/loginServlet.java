@@ -34,14 +34,15 @@ public class loginServlet extends HttpServlet {
 	String status=rdao.checkData(s);
 	
 	if(status.equals("fail")) {
-		RequestDispatcher r=request.getRequestDispatcher("/login.html");
+		RequestDispatcher r=request.getRequestDispatcher("login.html");
 		r.forward(request, response);
 	}
 	else {
-		RequestDispatcher r=request.getRequestDispatcher("/Dashboard.html");
+		RequestDispatcher r=request.getRequestDispatcher("Dashboard.html");
 		r.forward(request, response);
 	}
 		
 	}
 
 }
+
