@@ -19,7 +19,7 @@
     
                 </div>
                 <div class="col-md-6 con1">
-                    <form onsubmit="return login()" class="form-group" method="post" action="login" name="myform" id="form">
+                    <form onsubmit="return login()" class="form-group" method="post" action="<%=request.getContextPath()%>/login" name="myform" id="form">
                         <h4 class="rform1">Login to Start Interaction</h4>
                        
                           <label class="text11">Email <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -52,4 +52,5 @@
     </body>
 
 </html>
+
 
