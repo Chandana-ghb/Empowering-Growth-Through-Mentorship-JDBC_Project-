@@ -39,14 +39,15 @@ public class StudentController extends HttpServlet {
 		String status=rd.sendData(student);
 		
 		if(status.equals("fail")) {
-			RequestDispatcher r=request.getRequestDispatcher("/Registration_Form.html");
+			RequestDispatcher r=request.getRequestDispatcher("Registration_Form.html");
 			r.forward(request, response);
 		}
 		else {
-			RequestDispatcher r=request.getRequestDispatcher("/login.html");
+			RequestDispatcher r=request.getRequestDispatcher("login.html");
 			r.forward(request, response);
 		}
 		
 	}
 
 }
+
