@@ -22,10 +22,10 @@ public class RegDAOLayer {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			String username="root";
-			String password="root";
-			String url="jdbc:mysql://localhost:3306/Minor";
-			Connection con=DriverManager.getConnection(url,username,password);
+			String username = "avnadmin";
+			String password = "AVNS_9qX4X2KEIMV6ZdsAwAR";
+			String url = "jdbc:mysql://mysql-1345440f-komaravoluchandana46-50c0.a.aivencloud.com:24468/defaultdb?ssl-mode=REQUIRED";
+			Connection con = DriverManager.getConnection(url, username, password);
 			PreparedStatement p=con.prepareStatement("INSERT INTO Registration (FirstName,LastName,Email,Password,ConfirmPassword) VALUES (?,?,?,?,?)");
 			
 			p.setString(1, name);
@@ -61,10 +61,10 @@ public class RegDAOLayer {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			String username="root";
-			String password="root";
-			String url="jdbc:mysql://localhost:3306/Minor";
-			Connection con=DriverManager.getConnection(url,username,password);
+			String username = "avnadmin";
+			String password = "AVNS_9qX4X2KEIMV6ZdsAwAR";
+			String url = "jdbc:mysql://mysql-1345440f-komaravoluchandana46-50c0.a.aivencloud.com:24468/defaultdb?ssl-mode=REQUIRED";
+			Connection con = DriverManager.getConnection(url, username, password);
 			PreparedStatement p=con.prepareStatement("select * from Registration where Email=? AND Password=?");
 			
 			
@@ -92,3 +92,4 @@ public class RegDAOLayer {
     }
 	
 }
+
