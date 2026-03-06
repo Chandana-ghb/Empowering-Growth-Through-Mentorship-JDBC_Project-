@@ -23,10 +23,10 @@ public class RegisterDAO {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String username="root";
-			String password="root";
-			String url="jdbc:mysql://localhost:3306/Minor";
-			Connection con=DriverManager.getConnection(url,username,password);
+			String username = "avnadmin";
+			String password = "AVNS_9qX4X2KEIMV6ZdsAwAR";
+			String url = "jdbc:mysql://mysql-1345440f-komaravoluchandana46-50c0.a.aivencloud.com:24468/defaultdb?ssl-mode=REQUIRED";
+			Connection con = DriverManager.getConnection(url, username, password);
 			PreparedStatement p=con.prepareStatement("insert into Application (sname,roll,section,course,dept,mail,pnumber,fname,mname,gnumber,address) values (?,?,?,?,?,?,?,?,?,?,?)");
 			p.setString(1, sname);
 			p.setString(2, roll);
@@ -60,10 +60,10 @@ public class RegisterDAO {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String username = "root";
-            String password = "root";
-            String url = "jdbc:mysql://localhost:3306/Minor";
-            Connection con = DriverManager.getConnection(url, username, password);
+            String username = "avnadmin";
+			String password = "AVNS_9qX4X2KEIMV6ZdsAwAR";
+			String url = "jdbc:mysql://mysql-1345440f-komaravoluchandana46-50c0.a.aivencloud.com:24468/defaultdb?ssl-mode=REQUIRED";
+			Connection con = DriverManager.getConnection(url, username, password);
 
             String query = "SELECT * FROM Application WHERE roll = ?";
             PreparedStatement ps = con.prepareStatement(query);
@@ -93,3 +93,4 @@ public class RegisterDAO {
 	
 
 }
+
