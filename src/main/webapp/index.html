@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor Mentee</title>
+  <link rel="icon" href="./Assets/SPMVV_logo.jpeg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+            @import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Lovers+Quarrel&display=swap');
+
+    
+    .main{
+        position: relative;
+    }
+    
+    .con{
+            background:linear-gradient(90deg, rgb(134, 189, 142) 0%, rgb(1, 70, 10) 35%, rgb(134, 189, 142) 100%);
+            height:100px;
+            border-radius: 0px 0px 500px 500px;
+            position :relative;
+        }
+
+    .side1{
+                background:linear-gradient(90deg, rgb(134, 189, 142) 0%, rgb(1, 70, 10) 35%, rgb(134, 189, 142) 100%);               
+                height:550px;
+                border-radius:0px 600px 600px 0px;
+                margin-top:20px;
+            }
+
+    .side2{
+                background:linear-gradient(90deg, rgb(134, 189, 142) 0%, rgb(1, 70, 10) 35%, rgb(134, 189, 142) 100%);
+                height:550px;
+                border-radius:600px 0px 0px 600px;
+                margin-top:20px;
+            }
+
+    .box1{
+            box-shadow: 10px 10px 10px rgb(44, 44, 44);
+            margin-top: 35px;
+            margin-left: -10px;
+            border-radius:50px;
+            height:540px;
+            width:100%;
+        }
+
+    .box3{
+            background-color:rgb(220, 211, 80);
+            margin-top: 35px;
+            padding-bottom: 90px;
+            border-radius:50px;
+            box-shadow: 10px 10px 10px rgb(105, 105, 105);
+                
+        }
+
+    .con1{
+            background:linear-gradient(90deg, rgb(134, 189, 142) 0%, rgb(1, 70, 10) 35%, rgb(134, 189, 142) 100%);
+            height:100px;
+            border-radius: 500px 500px 0px 0px;
+            margin-top:40px;  
+            position:relative;
+        }
+
+    .shake{
+            justify-content: center;
+            display: flex;
+            padding-top: 250px;
+            width:150px;
+            height:390px;        
+    }
+
+    .quote{
+                text-align: center;
+                padding-top: 180px;
+                color: black;
+                font-size: 45px;
+                font-family: "Lovers Quarrel", serif;
+
+            }
+
+    .circle{
+                width:250px;
+                position: absolute;
+                top: 13%;
+                left: 11%;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                border-radius:50%;
+                }
+
+    .circle1{
+                width:250px;
+                position: absolute;
+                top: 13%;
+                right:3%;
+                transform: translate(-3%, -50%);
+                z-index: 2;
+                border-radius:50%;
+            }
+
+    .circle2{
+        width:250px;
+        position:absolute;
+        left:69px;
+        bottom:0px;
+       
+    }
+
+    .circle3{
+        width:250px;
+        position:absolute;
+        bottom:0px;
+        right:60px;
+       
+    }
+
+    .sub{
+            padding: 5px;
+            font-size: 20px;
+            margin:20px;
+            box-shadow: 3px 3px black;
+            border-radius: 5px;
+            border: none;
+        }
+
+         
+  </style>
+</head>
+<body>
+    <img src="./Assets/circle.png" alt="circle" class="circle">
+    <img src="./Assets/circle.png" alt="circle" class="circle1">
+
+
+
+    <div class="container con">
+    </div>
+
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-md-1 side1">
+
+            </div>
+            
+            <div class="col-md-10">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./Assets/interaction.jpg" class="box1">
+                        </div>
+                        <div class="col-md-2 box2">
+                             <img src="./Assets/shake.png"  class="shake">
+                        </div>
+                        <div class="col-md-5 box3">
+                            <p class="quote">Every successful journey begins with a mentor who cares and a mentee who is eager to learn</p>
+                            <form action="Registration_Form.html">
+                                <center><button type="submit" class="sub" >Register</button></center>   
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1 side2">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container con1">
+
+    </div>
+
+    <img src="./Assets/circle.png" alt="circle" class="circle2">
+    <img src="./Assets/circle.png" alt="circle" class="circle3">
+
+
+</body>
+</html>

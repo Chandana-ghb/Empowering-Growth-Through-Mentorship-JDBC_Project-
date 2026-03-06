@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./Assets/SPMVV_logo.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minor Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .heading{
+            text-align: center;
+        }
+        .minorform{
+            margin-top: 20px;
+        }
+        label{
+            font-weight: bold;
+        }
+        .roll{
+            padding-top: 10px;
+        }
+       .sub{
+        padding: 5px;
+        font-size: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px black;
+        margin-bottom: 130px;
+    }
+    .background{
+        background-image: linear-gradient(rgba(158, 158, 158, 0.195),rgba(200, 200, 239, 0.8)), url("./Assets/ProjectSubmission.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    </style>
+</head>
+<body class="background">
+    <h1 class="heading"> Project Submission</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                <form class="minorform" action="Dashboard.html">
+                    <label>Student Name:</label>
+                    <input type="text" placeholder="Enter your Name" class="form-control">
+                    <label class="roll">Roll Number:</label>
+                    <input type="text" placeholder="Enter your Roll Number" class="form-control">
+                    <label class="roll">Semester:</label>
+                    <input type="number" placeholder="Enter your Semester" class="form-control">
+                    <label class="roll">Year of Course:</label>
+                    <input type="number" placeholder="Enter your Year" class="form-control">
+                    <label class="roll">Section:</label>
+                    <input type="text" placeholder="Enter your Section" class="form-control">
+                    <label class="roll">Select Project Type:</label>
+                    <select class="form-control">
+                        <option value="" disabled selected> Select Project</option>
+                        <option> Minor project</option>
+                        <option> Major project</option>
+                    </select>
+                    
+                    <label class="roll">Upload Project File:</label>
+                    <input type="file" class="form-control">
+                    <center><button class="sub" >Submit</button></center>
+                </form>
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

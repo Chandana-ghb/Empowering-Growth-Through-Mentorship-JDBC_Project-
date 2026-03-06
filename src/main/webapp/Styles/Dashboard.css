@@ -1,0 +1,396 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.con{
+    background-color:#005959 ;
+    height:50px;
+}
+.admin-page{
+    background-color:#005959 ;
+    height:620px;
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .admin-page{
+        height:700px;
+    }
+    .mentorlist{
+       font-size: 15px;
+    }
+    .mentee_prb{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:2559px){
+    .admin-page{
+        height:1050px;
+    }
+    .mentorlist{
+       font-size: 25px;
+    }
+    .mentee_prb{
+        font-size: 25px;
+    }
+    .mentor{
+        font-size:30px;
+    }
+    .mentee{
+        font-size:30px;
+    }
+}
+
+@media only screen and (width:2560px){
+    .admin-page{
+        background-color:#005959 ;
+        height:1800px;
+    }
+    .mentorlist{
+        font-size: 50px;
+     }
+     .mentee_prb{
+        font-size:50px;
+    }
+    .mentor{
+        font-size:54px;
+    }
+    .mentee{
+        font-size:54px;
+    }
+}
+
+.mentor{
+    box-shadow: 3px 3px 3px white;
+    width: 100%;
+    padding: 5px;
+    background-color:#0d3131;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.mentee{
+    box-shadow: 3px 3px 3px white;
+    width: 100%;
+    padding: 5px;
+    background-color:#0d3131;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.mentorlist{
+    margin-top: 10px;
+    color:red;
+}
+
+.disable{
+    color:white;
+}
+
+.a_mentor{
+    max-height:80px;
+    transition: max-height 0.5s;
+    overflow:hidden;
+}		
+
+.mlink:hover{
+    text-decoration: none;
+}
+
+.menteelist{
+    padding-left: 60px !important;
+    font-size: 18px;
+}
+
+#mentees{
+    padding-left: 30px;
+}
+
+.mentee_prb{
+    margin-top: 10px;
+    color:red;
+}
+
+.disable{
+	color:white;
+}
+
+.menteelink:hover{
+    text-decoration: none;
+}
+
+
+/* Leave Form */
+
+.main_heading{
+    text-align: center;
+    padding-top:40px;
+}
+
+.sub_heading{
+    text-align: center;
+
+}
+
+.logo{
+    padding-top:20px;
+    margin-left:10px;
+    width:100px;
+}
+.Date{
+    padding-top:30px;
+    float:right;
+}
+
+.From{
+    padding-top:50px;
+    padding-left:50px;
+    font-weight: bold;
+}
+
+.college{
+    padding-left:50px;
+}
+
+.To{
+    padding-left:50px;
+    padding-top:30px;
+    font-weight: bold;
+}
+
+.To1{
+    padding-left:50px;
+    font-weight: bold;
+}
+
+.college_short{
+    padding-left:50px;
+}
+
+.madam{
+    padding-left:50px;
+    padding-top:30px;
+}
+
+.thank{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.warden{
+    padding-left:50px;
+    padding-top:120px;
+}
+
+.warden1{
+    padding-left:50px;
+}
+
+.head{
+    padding-left:50px;
+    padding-top:120px;
+}
+
+.head1{
+    padding-left:50px;
+}
+
+.std{
+    padding-left:50px;
+    padding-top:120px;
+}
+
+.std1{
+    padding-left:50px;
+}
+
+.Remark{
+    padding-left:50px;
+    padding-top:80px;
+}
+
+.name{
+    padding-top:15px;
+    padding-left:50px;
+    font-size:25px;
+}
+
+.i_name{
+    width:30%;
+    margin-left:130px;
+}
+
+@media only screen and (width:320px){
+    .i_name{
+        width:30% !important; 
+        margin-left:84px !important;
+    }
+    
+    .name{
+        padding-top:15px;
+        padding-left:40px;
+        font-size:19px;
+    }
+    
+}
+
+
+@media only screen and (max-width:375px){
+    .i_name{
+        width:40%;
+        margin-left:85px;
+    }
+    
+    .name{
+        padding-top:15px;
+        padding-left:40px;
+        font-size:19px;
+    }
+    
+}
+
+.i_course{
+    width:30%;
+    margin-left:18px;
+}
+
+@media only screen and (width:320px){
+    .i_course{
+        width:30% !important;
+        margin-left:-1px !important;
+    }
+    
+}
+
+
+@media only screen and (max-width:375px){
+    .i_course{
+        width:40%;
+        margin-left:-1px;
+    }
+    
+}
+
+.i_dept{
+    width:30%;
+    margin-left:63px;
+}
+
+@media only screen and (width:320px){
+    .i_dept{
+        width:30% !important;
+        margin-left:35px !important;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .i_dept{
+        width:40%;
+        margin-left:35px;
+    }
+    
+}
+
+.i_room{
+    width:30%;
+    margin-left:90px;
+}
+
+@media only screen and (width:320px){
+    .i_room{
+        width:30% !important;
+        margin-left:55px !important;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .i_room{
+        width:40%;
+        margin-left:56px;
+    }
+    
+}
+
+.i_hostel{
+    width:30%;
+    margin-left:60px;
+}
+
+@media only screen and (width:320px){
+    .i_hostel{
+        width:30% !important;
+        margin-left:32px !important;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .i_hostel{
+        width:40%;
+        margin-left:34px;
+    }
+    
+}
+
+@media only screen and (width:320px){
+    .big{
+        margin-top:20px;
+    }
+    
+}
+
+.para{
+    text-align: center;
+    padding-top:20px;
+}
+
+.para1{
+   margin-left:19%;
+   font-size:25px;
+}
+
+@media only screen and (max-width:375px){
+    .para1{
+        margin-left:3%;
+    }
+    
+}
+
+.para2{
+    width:28%;
+}
+
+.para3{
+    font-size:25px;
+}
+
+.para4{
+    width:28%;
+}
+
+.para5{
+    margin-left:19%;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:375px){
+    .para5{
+        margin-left:2%;
+    }
+    .para6{
+        width:50%;
+    }
+}
+
+.sub{
+    padding: 5px;
+    font-size: 20px;
+    margin:20px;
+    box-shadow: 3px 3px black;
+    border-radius: 5px;
+    border: none;
+}
